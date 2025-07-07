@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/* verde #49a09d
+   lilas #5f2c82 
+*/
+
+body,html{
+    background-color: blueviolet;
+    font-family: sans-serif;
+    height: 97vh;
+    width: 97vw;
+}
+
+main{
+    background-color: antiquewhite;
+    border-radius: 20px;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section > div#foto{
+    background: url(imagens/pexels-sulimansallehi-1484776.jpg);
+    height: 200px;
+    background-position: center;
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+}
+   
+    #formulario{
+        padding: 20px;
+        padding-left: 40px;
+        text-align: center;
+    }  
+
+
+    input:hover{
+        background-color: rgba(248, 201, 156, 0.514);
+    }
+     section > div#formulario{
+       background-color: rgba(240, 151, 195, 0.534);
+       border-radius: 20px;
+       width: 300px;
+       text-align: center;
+      margin: auto;
+     }
+   
+    
+    
+    
+
+
+    
+
+
+
+
+
