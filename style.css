@@ -5,22 +5,24 @@
 */
 
 body,html{
-    background-color: blueviolet;
+    background-color: rgb(212, 169, 253);
     font-family: sans-serif;
     height: 97vh;
     width: 97vw;
+    
 }
 
 main{
-    background-color: antiquewhite;
+    background-color: rgb(235, 217, 193);
     border-radius: 20px;
-    height: 500px;
+    height: 550px;
     width: 400px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-family: 'Courier New', Courier, monospace;
+   
 }
 
 section > div#foto{
@@ -29,18 +31,12 @@ section > div#foto{
     background-position: center;
     overflow: hidden;
     border-top-left-radius: 20px;
-    border-top-right-radius:20px;
+    
 }
-   
-    #formulario{
-        padding: 20px;
-        padding-left: 40px;
-        text-align: center;
-    }  
-
-
+     
     input:hover{
         background-color: rgba(248, 201, 156, 0.514);
+        transform: scale(1.02);
     }
      section > div#formulario{
        background-color: rgba(240, 151, 195, 0.534);
@@ -48,16 +44,58 @@ section > div#foto{
        width: 300px;
        text-align: center;
       margin: auto;
+       box-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.589);
+        line-height: 1.0em;
+        text-align:center;
+        padding-top: 10px;         
      }
-   
-    
-    
-    
+#prim{
+width: 90%;
+background-color: rgb(68, 151, 47);
+border-radius: 10px;
+padding: 5px;
+margin-bottom: 20px;
+
+}
+
+#prim:hover{
+    background-color: rgb(108, 247, 108);
+}
+
+h1{
+   font-size: 40px;
+   margin-top: 0px;
+   text-transform: uppercase;
+   text-shadow: 20px black;
+}
+a{
+    text-decoration: none;
+   padding: 20px;
+}
+
+a:hover{
+   text-decoration: underline;
+}
 
 
-    
+.campo{
+background-color: rgb(209, 150, 183);
+}
 
-
+ 
+span{
+    background-color: rgb(236, 223, 223);
+    width: 75px;
+    height: 30px;
+    margin-left: -5px;
+    border-radius: 3px;
+}
+  
+div.campo > input {
+    width: 70%;
+    margin-left: -10px;
+}
+  
 
 
 
